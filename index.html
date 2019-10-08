@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<title>Well-dying</title>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+	    html{font-family: 'Nanum Myeongjo', serif; line-height: 1.5; font-size: 13.5px;}
+        body{margin: 0; background-color: white;}
+
+        .gg{height: 950px; width: 1200px; margin: auto; position: relative;}
+		.aa{height: 770px; width: 1200px; margin: auto; position: relative;}
+
+		.blue{background:blue;}
+		.green{background:green; }
+		.black{background-color: black;}
+		.white{background-color: white;}
+
+	    .img{width: 400px; position: relative; left: 400px; opacity: 0; top: 100px; left: 700px;}
+	    .img1{width: 400px; position: relative; left: 400px; opacity: 0; top: 100px; left: 700px; }
+	    .img3{width: 700px; position: absolute; left: 400px; opacity: 0; padding-top: 250px; left: 450px; }
+	    .img4{width: 400px; position: relative; left: 400px; opacity: 0; top: 55px; left: 700px; }
+	    .img5{width: 500px; position: absolute; left: 400px; opacity: 1; top: 230px; left: 350px; }
+	    .img6{width: 400px; position: relative; left: 400px; opacity: 0; top: 55px; left: 700px; }
+	    .img7{width: 500px; position: relative; left: 400px; opacity: 0; top:350px; left: 350px; }
+	    .img9{width: 500px; position: relative; left: 400px; opacity: 0; top:350px; left: 350px; }
+
+	    .imgpin{width: 50px; position: relative; left: 400px; opacity: 1; top:80px; left: 80px; }
+	    .imggre{width: 50px; position: relative; left: 400px; opacity: 1; top:342px; left: -300px; }
+	    .imgpur{width: 50px; position: relative; left: 400px; opacity: 1; top:45px; left: 550px; }
+	    .imgblu{width: 50px; position: relative; left: 400px; opacity: 1; top:-50px; left: 100px; }
+	    .imgyel{width: 50px; position: relative; left: 400px; opacity: 1; top:256px; left: 140px; }
+	    
+
+
+        .text11{width: 650px; color: black; font-size: 2em; position: absolute; 
+	    	 opacity: 0; top: 350px; left: 10px; line-height: 1.5;}
+	    .text111{width: 650px; color: black; font-size: 1.45em; position: absolute; 
+	    	 opacity: 0; top: 500px; left:0px; line-height: 1.5;}
+	    .text1{width: 650px; color: white; font-size: 1.4em; position: absolute;  bottom: 0px;
+	    	 opacity: 0; top: 380px; left: 80px; line-height: 1.5;}
+	    .text2{width: 400px; color: white; font-size: 1em; position: absolute;
+	    	 opacity: 1; top: 70px; left: 955px;}
+	    .text3{width: 650px; color: white; font-size: 1.4em; position: absolute;  bottom: 0px;
+	    	 opacity: 0; top: 35px; left: 80px; line-height: 1.5;}
+	    .text4{width: 650px; color: black; font-size: 1.4em; position: absolute;  bottom: 0px;
+	    	 opacity: 0; top: 35px; left: 80px; line-height: 1.5;}
+	    .text44{width: 650px; color: white; font-size: 1.4em; position: absolute; 
+	    	 opacity: 0; top: 2300px; left: 80px; line-height: 1.5;}
+	    .text5{width: 680px; color: black; font-size: 1.4em; position: absolute;
+	    	 opacity: 0; top: 35px; left: 80px; line-height: 1.5;}
+	    .text55{width: 680px; color: black; font-size: 1em; position: absolute;
+	    	 opacity: 0; top: 652.5px; left: 213px; line-height: 1.5;}
+	    .text6{width: 680px; color: white; font-size: 1.4em; position: absolute;
+	    	 opacity: 0; top: 35px; left: 80px; line-height: 1.5;}
+        .text9{width: 680px; color: white; font-size: 1.4em; position: absolute;
+	    	 opacity: 0; top: 35px; left: 80px; line-height: 1.5;}
+	    
+	    @keyframes rtor{
+	    	from{left:100px; opacity: 0}to{left: 30px; opacity: 1}
+	    }
+	    @keyframes ltor{
+	    	from{left:100px; opacity: 0}to{right: 0px; opacity: 1}	
+	    }
+	    @keyframes ptor{
+	    	from{left:200px; opacity: 0}to{left: 15px; opacity: 1}	
+	    }
+	    @keyframes utor{
+	    	from{ opacity: 1;}to{ opacity: 0;}	
+	    }
+	    @keyframes ytor{
+	    	from{left: 500px; opacity: 1;}to{left: 30px; opacity: 1;}	
+	    }
+	    @keyframes xtor{
+	    	from{ opacity: 0;}to{ opacity: 1;}	
+	    }
+
+		#s3{transition: all 2.5s;}
+
+		footer{position: absolute; font-size: 0.7em; text-align: center;}
+	    footer p{color: white; padding-left: 635px;}
+
+	</style>
+</head>
+<body>
+	<audio src="deep.wav" id="aa" loop ></audio>
+    <section class="gg white">
+
+    	
+    	<p class="text11" id="p11">
+    		살아가는 우리에게 죽음에 대한 인식이 필요한<br> 이유는 무엇일까?
+    	</p>
+    	<p class="text111" id="t111">
+    		여러 철학가들의 말을 통해 알아보자.
+    	</p>
+    	
+    </section>
+
+	<section class="aa black">
+		<img src="2.jpg" class="img1" id="p1">
+
+		<img src="pin.png" class="imgpin" id="ppin">
+		<img src="gre.png" class="imggre" id="pgre">
+		<img src="pur.png" class="imgpur" id="ppur">
+		<img src="blu.png" class="imgblu" id="pblu">
+		<img src="yel.png" class="imgyel" id="pyel">
+
+		<p class="text1" id="t1">
+			"영원히 살지 못할 거면서 왜 태어났는가?"_ 연극 <왕은 죽어가다> 중 
+
+			<br>
+			<br>
+			인간은 죽음을 기억하는 존재다. 정중한 장례절차를 밟으며 죽음의 의미를 <br>되새긴다.  한 인간의 가치가 죽음을 통해 비로소 분명해지는 순간이다. 
+        </p>
+        <p class="text2" id="t2"  >
+        	극작가, 외젠 이오네스코 </p>
+       
+	</section>
+	<section class="aa black">
+		<img src="5.gif" class="img3" id="p3">
+		<p class="text3" id="t3">
+			카르페디엠(carpe diem)과 메멘토모리(memento mori),
+
+			<br><br>
+			"현재를 즐겨라.", "죽음을 기억하라." 는 하나로 맞닿아 있다. <br> 죽지 않고 영원히 살 수 있다면, 살아 있는 '지금 이 순간'이 그다지<br> 소중하지 않다. 인간은 결국 사라질 존재이기에 현재가 소중하다.
+			<br><br>
+			살고 있으면서도 죽음을 항상 의식해야 하는 이유이다.
+
+</p>
+	</section>
+
+	<section class="aa green">
+		<img src="6.jpg" class="img4" id="p4">
+		<p class="text4" id="t4">
+			"왜 사는지 알면, 어떤 상황도 견딜 수 있다."_ 프리드리히 니체
+			<br><br>
+			이 말을 뒤집어본다면 자기 삶의 의미를 찾을 수 없을 때 사람들은 우울증에 <br> 빠지고 심지어 자살을 시도하기도 한다. 저마다 품고 사는 이상과 정의는 <br> 삶을 가치있게 만든다. 
+			</p>
+	</section>
+
+	<section class="aa black" id="s3">
+		<img src="9.gif" class="img5" id="p5">
+		<img src="13.jpg" class="img7" id="p7">
+		<p class="text5" id="t5">
+
+        "생명의 진화 원리 두 가지 중 하나는 죽음."_미래학자, 도미니크 바뱅
+        <br><br>
+        죽지 않는 생명체의 진화와 발전은 더딜 수 밖에 없다.<br>
+        예컨데 야생 월귤나무인 므두셀라는 1만 3000년 까지 살 수 있다.<br> 그러나 오래 사는 만큼 진화도 느리다.<br> 반면 고등생물은 죽음과 번식을 반복하면서 문제를 없애고 장점을 키워나간다. </p>
+
+        <p class="text55" id="t55">
+
+        므두셀라 나무의 사진
+        <br><br>
+        </p>
+
+
+
+
+	</section>
+	
+
+	<section class="aa blue">
+		<img src="10.png" class="img6" id="p6">
+		<p class="text6" id="t6">
+			"기억되는 사람은 죽지 않는 법이다."_ 고대 로마 노예 반란 지도자, 스파르타쿠스
+			<br><br><br>
+			동물은 몸만으로 산다. 그러나 인간의 삶은 육체를 벗어났을 때 비로소 완성된다. 
+			<br><br>
+			우리는 숭고한 희생을 한 이들을 기억하며 되새긴다. 그리고 그런 인물이 되기를<br> 꿈꾼다. 추상적이고 드높은 가치를 위한 희생은 우리의 짧은 삶을 영원하게 만든다.
+			<br><br>
+			수천 년 뒤에도 기억되는 영원한 가치를 택한 인간의 죽음에는 '적절한 죽음'이라는<br> 표현이 적절할 것이다.
+</p>
+	</section>
+	
+
+	<div id="monitor"></div>
+    <style type="text/css">
+    	#monitor{width: 80px; height: 30px; background:black; color: white; position: fixed; top: 0; right: 0;}
+    </style>
+
+
+
+	<script type="text/javascript">
+		window.onscroll=function(){
+			var t = document.documentElement.scrollTop+ document.body.scrollTop 
+			monitor.innerHTML=t;
+
+			if(t>0) {p11.style.animation= "ltor 1s forwards";
+				s3.style.background = "white";
+				document.body.style.background = "black";
+				s3.style.transform = "rotate(180deg)";
+			}else{
+				p11.style.animation= "";
+				s3.style.background = "blue";
+				document.body.style.background = "white";
+				s3.style.transform = "rotate(0deg)";
+			}
+			
+			if(t>250) {t111.style.animation= "ptor 2s forwards";}
+
+
+			if(t>300) {p1.style.animation= "ltor 2s forwards";}
+			
+			if(t>500) {t1.style.animation= "rtor 2s forwards";}
+			
+
+			
+			if(t>300) {t2.style.animation= "ltor 2s forwards";}
+			
+ 
+			
+		   
+			if(t>1300) {t3.style.animation= "rtor 1s forwards";}
+			if(t>1300) {p3.style.animation= "ltor 1s forwards";}
+
+
+			if(t>2000) {p4.style.animation= "ltor 3s forwards";}
+		
+			if(t>2125) {t4.style.animation= "rtor 1s forwards";}
+
+
+		    if(t>3200) {p5.style.animation= "utor 3s forwards";
+				s3.style.background = "white";
+				document.body.style.background = "black";
+				s3.style.transform = "rotate(360deg)";
+			}else{
+				p5.style.animation= "";
+				s3.style.background = "black";
+				document.body.style.background = "white";
+				s3.style.transform = "rotate(0deg)";
+			}
+
+			if(t>2850) {t5.style.animation= "ytor 3s forwards";}
+
+
+
+			if(t>3800) {p6.style.animation= "ltor 2s forwards";}
+		
+			if(t>3800) {t6.style.animation= "rtor 1s forwards";}
+
+			if(t>3300) {p7.style.animation= "xtor 1s forwards";
+		       }
+			if(t>3300) {t55.style.animation= "xtor 3s forwards";}
+
+			
+			if(t>4600) {t9.style.animation= "rtor 3s forwards";}
+
+
+			if(t>600) {ppin.style.animation= "xtor 3s forwards";}
+			if(t>600) {pgre.style.animation= "xtor 3s forwards";}
+			if(t>600) {ppur.style.animation= "xtor 3s forwards";}
+			if(t>600) {pyel.style.animation= "xtor 3s forwards";}
+			if(t>600) {pblu.style.animation= "xtor 3s forwards";}
+
+
+			
+		 }
+	</script>
+
+	<br><br>
+
+	<footer> 
+    	<p> 출처: <나는 이 질문이 불편하다>, 안광복 지음 </p>
+    	</footer>
+    <br><br>
+</body>
+</html>
